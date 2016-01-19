@@ -43,7 +43,7 @@ bio.display = function() {
   $("#topContacts, #footerContacts").append(formattedLocation);
 
 
-  var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
+  var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
   $("#header").append(formattedWelcomeMsg);
 
 
